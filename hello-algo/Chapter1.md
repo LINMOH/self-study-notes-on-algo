@@ -27,7 +27,8 @@
 - **O(n)**：线性时间复杂度，表示算法的执行时间与输入规模成正比。
 - **O(n²)**：平方时间复杂度，表示算法的执行时间随着输入规模的平方增长。例如，冒泡排序、插入排序等。
 - **O(n log n)**：对数线性时间复杂度，表示算法的执行时间比线性增长快，但比平方增长慢。例如，快速排序和归并排序。
-![alt text](time_complexity_common_types.png)
+![alt text]([time_complexity_common_types.png](https://www.hello-algo.com/chapter_computational_complexity/time_complexity.assets/time_complexity_common_types.png))
+![alt text]([kongjian_complexity_common_types.png](https://www.hello-algo.com/chapter_computational_complexity/space_complexity.assets/space_complexity_common_types.png)
 
 **实例**：
 - 在查找某个元素时，线性查找（O(n)）的时间复杂度较高，适用于小规模数据。而二分查找（O(log n)）则适用于已经排序好的数据，效率要高得多。
@@ -57,7 +58,7 @@
 - **算法为数据结构赋予功能**：数据结构本身仅存储数据，只有与算法结合，才能发挥其应有的作用。通过不同的算法，可以对同一数据结构进行各种操作，如排序、查找、遍历等。
 - **数据结构的选择影响算法的效率**：同一问题可以通过不同的数据结构来实现，选择合适的数据结构能够显著提高算法的效率。例如，图的遍历可以通过邻接矩阵或邻接表实现，选择不同的数据结构会影响算法的性能。
 
-![alt text](relationship_between_data_structure_and_algorithm.png)
+![alt text](https://www.hello-algo.com/chapter_introduction/what_is_dsa.assets/relationship_between_data_structure_and_algorithm.png)
 
 **实例**：
 - 在实现图的最短路径算法时，使用邻接矩阵的空间复杂度较高，但适合密集图；而使用邻接表则适用于稀疏图，能够节省内存并提高效率。
