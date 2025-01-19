@@ -27,9 +27,10 @@
 - **O(n)**：线性时间复杂度，表示算法的执行时间与输入规模成正比。
 - **O(n²)**：平方时间复杂度，表示算法的执行时间随着输入规模的平方增长。例如，冒泡排序、插入排序等。
 - **O(n log n)**：对数线性时间复杂度，表示算法的执行时间比线性增长快，但比平方增长慢。例如，快速排序和归并排序。
-![alt text]([time_complexity_common_types.png](https://www.hello-algo.com/chapter_computational_complexity/time_complexity.assets/time_complexity_common_types.png))
-![alt text]([kongjian_complexity_common_types.png](https://www.hello-algo.com/chapter_computational_complexity/space_complexity.assets/space_complexity_common_types.png)
+![alt text](https://www.hello-algo.com/chapter_computational_complexity/time_complexity.assets/time_complexity_common_types.png)
+![alt text](https://www.hello-algo.com/chapter_computational_complexity/space_complexity.assets/space_complexity_common_types.png)
 
+**这一部分内容将在第二章细讲**
 **实例**：
 - 在查找某个元素时，线性查找（O(n)）的时间复杂度较高，适用于小规模数据。而二分查找（O(log n)）则适用于已经排序好的数据，效率要高得多。
 
